@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="135dp"
+        android:gravity="center"
+        android:text="Gints Kristaps Pērkons\n\nMarta Balode\n\nRičards Reinsons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        app:layout_height="wrap_content"
+        app:layout_width="wrap_content" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="131dp"
+        android:gravity="center"
+        android:text="And the application was developed by\nGints Kristaps Pērkons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703"
+        app:layout_height="wrap_content"
+        app:layout_width="wrap_content" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="97dp"
+        android:gravity="center"
+        android:text="This is the first application from Group 2:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299"
+        app:layout_height="wrap_content"
+        app:layout_width="wrap_content" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
