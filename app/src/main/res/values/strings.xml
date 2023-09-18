@@ -1,0 +1,5 @@
+<resources>
+    <string name="group_name">This is the first application from Group No. 2</string>
+    <string name="group_members">Marta Balode \nGints Kristaps Pērkons \nRičards Reinsons</string>
+    <string name="developer">And the application was developed \nby Marta Balode</string>
+</resources>
