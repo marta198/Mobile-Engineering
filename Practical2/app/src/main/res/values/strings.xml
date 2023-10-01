@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practical #2</string>
+    <string name="main_activity_title">1-st Activity</string>
+    <string name="second_activity_title">2-nd Activity</string>
+    <string name="go_to_second_button">Go to 2-nd</string>
+    <string name="go_to_first_button">Go to 1-nd</string>
+    <string name="dialog_button">Dialog</string>
+    <string name="back_button">Back</string>
+
+    <string name="group_dialog_ok_button">OK</string>
+    <string name="group_dialog_close_button">Close</string>
+
+    <string name="group_dialog_ok">You clicked OK</string>
+    <string name="group_dialog_closed">You closed dialog</string>
+</resources>
