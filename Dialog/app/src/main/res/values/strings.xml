@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dialog</string>
+
+    <string-array name="dialogItems">
+        <item>Marta Balode</item>
+        <item>Gints Kristaps Pērkons</item>
+        <item>Ričards Reinsons</item>
+    </string-array>
+</resources>
