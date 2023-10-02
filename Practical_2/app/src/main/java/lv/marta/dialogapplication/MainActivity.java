@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(this, text, duration);
                 toast.show();
             });;
-            dialogWindow.setTitle("Choose group members");
+            dialogWindow.setTitle("2nd Group's Dialog");
 
             dialogWindow.setMultiChoiceItems(listItems, checkedItems, (dialog, which, isChecked) -> {
                 String currentItem = selectedItems.get(which);
