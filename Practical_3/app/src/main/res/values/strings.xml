@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">Repository G-02</string>
     <string name="btn1_text">Save</string>
     <string name="btn2_text">Go to 2nd</string>
     <string name="btn3_text">Read preferences</string>
