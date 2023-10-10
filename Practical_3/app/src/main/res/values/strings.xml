@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="btn1_text">Save</string>
+    <string name="btn2_text">Go to 2nd</string>
+    <string name="btn3_text">Read preferences</string>
+    <string name="btn4_text">Back</string>
+    <string name="preference_file_key">savedtext</string>
+    <string-array name="modes">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+</resources>
