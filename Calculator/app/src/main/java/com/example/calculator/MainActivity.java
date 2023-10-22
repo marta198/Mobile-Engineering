@@ -178,14 +178,7 @@ public class MainActivity extends AppCompatActivity {
         Stack<Character> operators = new Stack<>();
 
         for (int i = 0; i < tokens.length; i++) {
-            if (tokens[i] == '(') {
-                operators.push(tokens[i]);
-            } else if (tokens[i] == ')') {
-                while (!operators.isEmpty() && operators.peek() != '(') {
-                    values.push(applyOperator(operators.pop(), values.pop(), values.pop()));
-                }
-                operators.pop();
-            } else if (Character.isDigit(tokens[i])) {
+             if (Character.isDigit(tokens[i])) {
                 StringBuilder sb = new StringBuilder();
                 while (i < tokens.length && (Character.isDigit(tokens[i]) || tokens[i] == '.')) {
                     sb.append(tokens[i]);
