@@ -119,9 +119,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    double savedValue = Double.parseDouble(answer.getText().toString());
-                    memoryValue = String.valueOf(savedValue);
-                    Toast.makeText(getApplicationContext(), "Value saved: " + savedValue, Toast.LENGTH_SHORT).show();
+                    memoryValue = String.valueOf(answer.getText().toString());
+                    Toast.makeText(getApplicationContext(), "Value saved: " + memoryValue, Toast.LENGTH_SHORT).show();
                 } catch (NumberFormatException e) {
                     Toast.makeText(getApplicationContext(), "Invalid value. Cannot save to memory.", Toast.LENGTH_SHORT).show();
                 }
@@ -132,10 +131,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    double savedValue = Double.parseDouble(memoryValue);
                     inputExpression.setText("");
                     answer.setText("");
-                    inputExpression.append(String.valueOf(savedValue));
+                    inputExpression.append(memoryValue);
                 } catch (NumberFormatException e) {
                     Toast.makeText(getApplicationContext(), "Invalid memory value. Cannot read.", Toast.LENGTH_SHORT).show();
                 }
